@@ -35,14 +35,14 @@ module.exports = {
     const embed = new Discord.RichEmbed();
 
     const description = 'Thanks for joining us!\n\n' +
+      'This is the Discord group of our Telegram PUBG Kerala Group @pubg_mobb!\n\n' +
       'Make sure you read over our rules in the `#info-rules` channel. If you have any questions or concerns feel free to ping `@Admin` or `@Moderator`, or message a staff member directly.\n\n' +
-      'We have region-based roles that give your name a color. To add one, type `!setregion North America` in the `#bot-room`.\n\n' +
       'We also have game roles to help you find people to play with. To find out what games we have, and how to add one to yourself, type `!role` in the `#bot-room`.\n\n' +
       'To find our other commands, type `!help` in the `#bot-room`.';
 
-    embed.setTitle('Welcome to Gaymers!');
+    embed.setTitle('PUBG TGArmy യിലേക്ക് സ്വാഗതം!');
     embed.setDescription(description);
-    embed.setFooter('Gaymers.GG', GuildMember.guild.iconURL);
+    embed.setFooter('Telegram Army', GuildMember.guild.iconURL);
 
     GuildMember.send({ embed: embed });
   }
